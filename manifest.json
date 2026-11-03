@@ -5,9 +5,9 @@
   "description": "自动解析 Gofile 分享链接，支持文件与文件夹递归下载，自动处理鉴权，无需手动配置令牌。",
   "icon": "icon.png",
   "version": "1.0.0",
-  "homepage": "https://github.com/YOUR_GITHUB_USERNAME/gopeed-extension-gofile",
+  "homepage": "https://github.com/lzcc20/gopeed-extension-gofile",
   "repository": {
-    "url": "https://github.com/YOUR_GITHUB_USERNAME/gopeed-extension-gofile"
+    "url": "https://github.com/lzcc20/gopeed-extension-gofile"
   },
   "scripts": [
     {
