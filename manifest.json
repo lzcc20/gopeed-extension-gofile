@@ -1,6 +1,6 @@
 {
   "name": "gopeed-extension-gofile",
-  "author": "YOUR_GITHUB_USERNAME",
+  "author": "lzcc20",
   "title": "Gofile 下载器（重写版）",
   "description": "自动解析 Gofile 分享链接，支持文件与文件夹递归下载，自动处理鉴权，无需手动配置令牌。",
   "icon": "icon.png",

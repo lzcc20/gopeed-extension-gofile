@@ -13,9 +13,9 @@
 2. 在扩展页面**连续点击 5 次「安装」按钮**，开启开发者模式（仅桌面端）。
 3. 点击「从 Git 安装」，输入本仓库地址并安装：
    ```
-   https://github.com/YOUR_GITHUB_USERNAME/gopeed-extension-gofile
+   https://github.com/lzcc20/gopeed-extension-gofile
    ```
-   （把 `YOUR_GITHUB_USERNAME` 换成实际用户名；子目录安装用 `#` 分隔，本仓库根目录无需加）
+   （把 `lzcc20` 换成实际用户名；子目录安装用 `#` 分隔，本仓库根目录无需加）
 
 也可以直接把本仓库克隆到本地，在开发者模式下「选择目录」安装（便于调试）。
 
