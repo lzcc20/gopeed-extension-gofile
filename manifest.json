@@ -1,0 +1,29 @@
+{
+  "name": "gopeed-extension-gofile",
+  "author": "YOUR_GITHUB_USERNAME",
+  "title": "Gofile 下载器（重写版）",
+  "description": "自动解析 Gofile 分享链接，支持文件与文件夹递归下载，自动处理鉴权，无需手动配置令牌。",
+  "icon": "icon.png",
+  "version": "1.0.0",
+  "homepage": "https://github.com/YOUR_GITHUB_USERNAME/gopeed-extension-gofile",
+  "repository": {
+    "url": "https://github.com/YOUR_GITHUB_USERNAME/gopeed-extension-gofile"
+  },
+  "scripts": [
+    {
+      "event": "onResolve",
+      "match": {
+        "urls": ["*://gofile.io/*"]
+      },
+      "entry": "index.js"
+    }
+  ],
+  "settings": [
+    {
+      "name": "token",
+      "title": "Gofile API Token（可选）",
+      "description": "在 gofile.io 个人资料页获取的 API 令牌。留空则自动创建游客账号（推荐）。",
+      "type": "string"
+    }
+  ]
+}
